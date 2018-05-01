@@ -1,0 +1,16 @@
+0000.013 () Opened log file at time: Mon, 30 Apr 2018 20:12:30 +0000 on http://maxwelldev.local
+0000.013 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MBP.hitronhub.home 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 43.6M | 4M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.013 () Free space on disk containing Updraft's temporary directory: 95752 MB
+0000.016 () Restore job started. Entities to restore: themes. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.062 () Entity: themes
+0000.062 () restore_backup(backup_file=backup_2018-04-30-2010_FSTemplate13_b9899c8d0489-themes.zip, type=themes, info=a:2:{s:4:"path";s:87:"/Users/russfee/Dropbox/Fee and Sons/Clients/Maxwell Developments/Site/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=1)
+0000.063 () Unpacking backup... (backup_2018-04-30-2010_FSTemplate13_b9899c8d0489-themes.zip, 3.1 Mb)
+0000.451 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.451 () Moving old data: can potentially use wp_filesystem method / -old
+0000.451 () Moving old data out of the way...
+0000.541 () Top-level entities being moved: index.php, twentyfifteen, twentyseventeen, twentysixteen
+0000.543 () Moving unpacked backup into place...
+0000.704 () Top-level entities being moved: .DS_Store, Fee and Sons 2018, index.php, twentyfifteen, twentyseventeen, twentysixteen
+0000.705 () Cleaning up rubbish...
+0000.712 () Restore successful!
+0000.712 () Restore successful

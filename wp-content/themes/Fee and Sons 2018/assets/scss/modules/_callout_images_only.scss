@@ -1,0 +1,30 @@
+/* Module - Callout - Images Only
+================================================== */
+
+.callout-io-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	@media screen and (max-width: 756px) {
+		flex-wrap: wrap;		
+}
+	@media screen and (max-width: 530px) {
+		justify-content: center;		
+}
+
+
+}
+
+.callout-io-image {
+	width: 200px;
+	height: 200px;
+	margin: 0 0 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.callout-io-title {
+	
+}
