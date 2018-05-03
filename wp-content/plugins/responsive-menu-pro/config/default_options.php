@@ -33,12 +33,12 @@ function get_responsive_menu_pro_default_options() {
         'button_image_alt' => null,
         'button_image_when_clicked' => null,
         'button_image_alt_when_clicked' => null,
-        'button_trigger_type' => 'click',
         'button_font' => null,
         'button_font_icon' => null,
         'button_font_icon_type' => 'font-awesome',
         'button_font_icon_when_clicked' => null,
         'button_font_icon_when_clicked_type' => 'font-awesome',
+        'button_trigger_type' => 'click',
         'button_click_trigger' => '#responsive-menu-pro-button',
         'button_title_position' => 'left',
         'button_title_line_height' => '13',
@@ -131,6 +131,64 @@ function get_responsive_menu_pro_default_options() {
         'menu_sub_arrow_shape_hover_colour' => '#fff',
         'menu_sub_arrow_shape_colour_active' => '#fff',
         'menu_sub_arrow_shape_hover_colour_active' => '#fff',
+
+        // Sub Menus > Styling
+        'submenu_font' => null,
+        'submenu_font_size' => 13,
+        'submenu_font_size_unit' => 'px',
+        'submenu_links_height' => 40,
+        'submenu_links_height_unit' => 'px',
+        'submenu_links_line_height' => 40,
+        'submenu_links_line_height_unit' => 'px',
+        'submenu_text_alignment' => 'left',
+
+        // Sub Menus > Item Borders
+        'submenu_border_width' => 1,
+        'submenu_border_width_unit' => 'px',
+        'submenu_item_border_colour' => '#212121',
+        'submenu_item_border_colour_hover' => '#212121',
+        'submenu_current_item_border_colour' => '#212121',
+        'submenu_current_item_border_hover_colour' => '#3f3f3f',
+
+        // Sub Menus > Item Text
+        'submenu_link_colour' => '#fff',
+        'submenu_link_hover_colour' => '#fff',
+        'submenu_current_link_colour' => '#fff',
+        'submenu_current_link_hover_colour' => '#fff',
+
+        // Sub Menus > Item Background
+        'submenu_item_background_colour' => '#212121',
+        'submenu_item_background_hover_colour' => '#3f3f3f',
+        'submenu_current_item_background_colour' => '#212121',
+        'submenu_current_item_background_hover_colour' => '#3f3f3f',
+
+        // Sub Menus > Trigger Icon
+        'submenu_arrow_position' => 'right',
+
+        // Sub Menus > Trigger Sizing
+        'submenu_submenu_arrow_height' => '40',
+        'submenu_submenu_arrow_height_unit' => 'px',
+        'submenu_submenu_arrow_width' => '40',
+        'submenu_submenu_arrow_width_unit' => 'px',
+
+        // Sub Menus > Trigger Colours
+        'submenu_sub_arrow_shape_colour' => '#fff',
+        'submenu_sub_arrow_shape_hover_colour' => '#fff',
+        'submenu_sub_arrow_shape_colour_active' => '#fff',
+        'submenu_sub_arrow_shape_hover_colour_active' => '#fff',
+
+        // Sub Menus > Trigger Background
+        'submenu_sub_arrow_background_colour' => '#212121',
+        'submenu_sub_arrow_background_hover_colour' => '#3f3f3f',
+        'submenu_sub_arrow_background_colour_active' => '#212121',
+        'submenu_sub_arrow_background_hover_colour_active' => '#3f3f3f',
+
+        // Sub Menus > Trigger Border
+        'submenu_sub_arrow_border_colour' => '#212121',
+        'submenu_sub_arrow_border_hover_colour' => '#3f3f3f',
+        'submenu_sub_arrow_border_colour_active' => '#212121',
+        'submenu_sub_arrow_border_hover_colour_active' => '#3f3f3f',
+
         'menu_font' => null,
         'menu_font_size' => 13,
         'menu_font_size_unit' => 'px',
@@ -139,8 +197,11 @@ function get_responsive_menu_pro_default_options() {
         'menu_text_alignment' => 'left',
         'menu_links_height' => 40,
         'menu_links_height_unit' => 'px',
+        'menu_links_line_height' => 40,
+        'menu_links_line_height_unit' => 'px',
         'menu_border_width' => 1,
         'menu_border_width_unit' => 'px',
+
         'menu_minimum_width' => null,
         'menu_minimum_width_unit' => 'px',
         'menu_maximum_width' => null,
@@ -150,18 +211,29 @@ function get_responsive_menu_pro_default_options() {
         'menu_additional_content' => null,
         'menu_additional_content_colour' => '#fff',
         'menu_title' => null,
+
+        // Container > Title Image
         'menu_title_image' => null,
         'menu_title_image_alt' => null,
+        'menu_title_image_height' => null,
+        'menu_title_image_height_unit' => 'px',
+        'menu_title_image_width' => null,
+        'menu_title_image_width_unit' => '%',
         'menu_title_font_icon' => null,
         'menu_title_font_icon_type' => 'font-awesome',
+
         'menu_appear_from' => 'left',
         'menu_title_link' => null,
         'menu_title_link_location' => '_self',
         'menu_width' => 75,
         'menu_width_unit' => '%',
+
+        // Container > Technical
         'menu_close_on_link_click' => 'off',
         'menu_close_on_body_click' => 'off',
+        'menu_close_on_scroll' => 'off',
         'enable_touch_gestures' => false,
+
         'menu_item_click_to_trigger_submenu' => 'off',
         'menu_disable_scrolling' => 'off',
         'menu_overlay' => 'off',
@@ -194,12 +266,16 @@ function get_responsive_menu_pro_default_options() {
 
         'single_menu_height' => '80',
         'single_menu_height_unit' => 'px',
+        'single_menu_line_height' => '80',
+        'single_menu_line_height_unit' => 'px',
         'single_menu_font' => null,
         'single_menu_font_size' => '14',
         'single_menu_font_size_unit' => 'px',
 
-        'single_menu_submenu_height' => '40',
-        'single_menu_submenu_height_unit' => 'px',
+        'single_menu_submenu_height' => null,
+        'single_menu_submenu_height_unit' => 'auto',
+        'single_menu_submenu_line_height' => '40',
+        'single_menu_submenu_line_height_unit' => 'px',
         'single_menu_submenu_font' => null,
         'single_menu_submenu_font_size' => '12',
         'single_menu_submenu_font_size_unit' => 'px',
@@ -219,10 +295,9 @@ function get_responsive_menu_pro_default_options() {
         'header_bar_breakpoint' => '800',
         'header_bar_logo' => null,
         'header_bar_logo_height' => null,
-        'header_bar_logo_height_unit' => '%',
+        'header_bar_logo_height_unit' => 'px',
         'header_bar_logo_width' => null,
         'header_bar_logo_width_unit' => '%',
-        'header_bar_logo' => null,
         'header_bar_logo_alt' => '',
         'header_bar_logo_link' => null,
         'header_bar_title' => null,
@@ -239,6 +314,11 @@ function get_responsive_menu_pro_default_options() {
         'items_order' => '{"title":"on","menu":"on","search":"on","additional content":"on"}',
         'header_bar_items_order' => '{"logo":"on","title":"on","search":"on","html content":"on"}',
 
+        // Menu > Animations
+        'smooth_scroll_on' => 'off',
+        'smooth_scroll_speed' => 500,
+
+        // Menu > Fade Items In
         'fade_submenus' => 'off',
         'fade_submenus_side' => 'left',
         'fade_submenus_delay' => 100,

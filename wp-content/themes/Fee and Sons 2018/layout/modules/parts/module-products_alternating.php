@@ -12,7 +12,7 @@
 								<div class="products-alternating-image-<?php the_sub_field('image_alignment'); ?>">
 									<img style="<?php the_sub_field('circle'); ?>" src="<?php the_sub_field('product_image'); ?>">
 								</div> <!--products-alternating-image-->
-								<div class="products-alternating-written-<?php the_sub_field('image_alignment'); ?>" style="color: <?php the_sub_field('product_text_colour'); ?> ; background-image: url(<?php the_sub_field('paragraph_background_image'); ?>); background-repeat: no-repeat; background-position-x: 50%;background-position-y: 50%;">
+								<div class="products-alternating-written-<?php the_sub_field('image_alignment'); ?>" style="color: <?php the_sub_field('product_text_colour'); ?> ; background-image: url(<?php the_sub_field('paragraph_background_image'); ?>); background-repeat: no-repeat; background-position-x: 50%;background-position-y: 50%; <?php the_sub_field('paragraph_align'); ?>">
 									<h3 style="color: <?php the_sub_field('product_text_colour'); ?>"><?php the_sub_field('product_title'); ?></h3>
 									<p><?php the_sub_field('product_paragraph'); ?></p>
 									

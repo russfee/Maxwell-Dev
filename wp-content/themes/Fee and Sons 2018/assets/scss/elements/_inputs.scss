@@ -235,8 +235,8 @@ margin-bottom: 5px;
 .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit] {
 color: #ffffff;
 cursor: pointer;
-border: 1px solid #D02630;
-background-color: #D02630;
+border: none;
+background-color: $primary-color;
 font-size: 1em;
 text-transform: uppercase;
 padding: 12px 20px 10px 20px;
@@ -249,8 +249,7 @@ margin: 0 auto;
 }
 .gform_wrapper .gform_footer input.button:hover, .gform_wrapper .gform_footer input[type=submit]:hover {
     color: #ffffff ;
-    border: 1px solid #333333;  
-background-color: #dadada;      
+	background-color: $secondary-color;      
 }
 
 .gform_body li {

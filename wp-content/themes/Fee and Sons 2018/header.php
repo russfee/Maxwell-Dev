@@ -36,7 +36,7 @@
 	<div class="row constrain">
 		<div class="nav-container">
 			<div id="logo">
-				<a title="Back Home" href="<?php echo esc_url( home_url() ) ?>"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png"></a>
+				<a title="Back Home" href="<?php echo esc_url( home_url() ) ?>"><img src="<?php the_field('main_logo','option'); ?>"></a>
 			</div><!-- logo -->
 			<div id="navigation">
 				<header>
@@ -45,6 +45,10 @@
 					</nav>
 				</header>
 			</div><!-- navigation -->
+	    		<div id="mobile-nav">
+				<?php echo do_shortcode("[responsive_menu_pro]"); ?>
+			</div> <!--mobile-nav-->
 		</div> <!--nav-container-->
+
     </div><!-- row -->
 <!--==========NAV END*============-->

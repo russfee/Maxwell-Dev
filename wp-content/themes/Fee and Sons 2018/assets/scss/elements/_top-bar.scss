@@ -9,6 +9,12 @@ Top Bar
 	justify-content: flex-end;
 	align-items: center;
 	padding: 10px 40px 10px 0;
+	
+	@media screen and (max-width: 756px) {
+		justify-content: center;	
+		padding: 10px 0;	
+}
+
 }
 
 .top-bar-content {

@@ -1,9 +1,3 @@
-{% if options.header_bar_adjust_page %}
-    body {
-        margin-top: {{ options.header_bar_height }}{{ options.header_bar_height_unit }};
-    }
-{% endif %}
-
 #responsive-menu-pro-header {
     width: 100%;
     padding: 0 5%;
@@ -47,6 +41,12 @@
 }
 
 @media screen and (max-width: {{ options.header_bar_breakpoint }}px) {
+
+    {% if options.header_bar_adjust_page %}
+        body {
+            margin-top: {{ options.header_bar_height }}{{ options.header_bar_height_unit }};
+        }
+    {% endif %}
 
     #responsive-menu-pro-header {
         position: {{ options.header_bar_position_type }};

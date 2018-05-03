@@ -7,6 +7,9 @@ jQuery(document).ready(function($) {
         {% if options.animation_type == 'push' %}
             pageWrapper: '{{ options.page_wrapper }}',
         {% endif %}
+        {% if options.smooth_scroll_on == 'on' %}
+            smoothScrollSpeed: '{{ options.smooth_scroll_speed * 1000 }}',
+        {% endif %}
         isOpen: false,
         activeClass: 'is-active',
         container: '#responsive-menu-pro-container',
@@ -231,6 +234,16 @@ jQuery(document).ready(function($) {
 
             },
         {% endif %}
+        {% if options.smooth_scroll_on == 'on' %}
+            smoothScrollToLocation: function(event) {
+                if(event.target.hash) {
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: $(event.target.hash).offset().top
+                    }, 500);
+                }
+            },
+        {% endif %}
 
         init: function() {
 
@@ -348,6 +361,12 @@ jQuery(document).ready(function($) {
                 }
             });
 
+            {% if options.smooth_scroll_on == 'on' %}
+                $(this.linkElement).on('click', function(e) {
+                    self.smoothScrollToLocation(e);
+                });
+            {% endif %}
+
             {% if options.menu_close_on_link_click == 'on' %}
                 $(this.linkElement).on('click', function(e) {
                     if($(window).width() < self.breakpoint) {
@@ -380,19 +399,29 @@ jQuery(document).ready(function($) {
             {% endif %}
 
             {% if options.menu_close_on_body_click == 'on' %}
-                    $(document).on('click', 'body', function (e) {
-                        if($(window).width() < self.breakpoint) {
-                            if(self.isOpen) {
-                                if (
-                                    $(e.target).closest('#responsive-menu-pro-container').length ||
-                                    $(e.target).closest('#responsive-menu-pro-button').length
-                                ) {
-                                    return;
-                                }
+                $(document).on('click', 'body', function (e) {
+                    if($(window).width() < self.breakpoint) {
+                        if(self.isOpen) {
+                            if (
+                                $(e.target).closest('#responsive-menu-pro-container').length ||
+                                $(e.target).closest('#responsive-menu-pro-button').length
+                            ) {
+                                return;
                             }
+                        }
+                        self.closeMenu();
+                    }
+                });
+            {% endif %}
+
+            {% if options.menu_close_on_scroll == 'on' %}
+                $(window).scroll(function (e) {
+                    if($(window).width() < self.breakpoint) {
+                        if(self.isOpen) {
                             self.closeMenu();
                         }
-                    });
+                    }
+                });
             {% endif %}
 
             {% if options.menu_item_click_to_trigger_submenu == 'on' %}

@@ -88,6 +88,17 @@
                             'vh': 'vh'
                         } %}
                         {{ macros.select(name ~ '_unit', options[name ~ '_unit'], choices, 'is-unit') }}
+                    {% elseif unit_type == 'pixel_auto' %}
+                        {% set choices = {
+                            'auto': 'auto',
+                            'px': 'px',
+                            '%': '%',
+                            'em': 'em',
+                            'rem': 'rem',
+                            'vw': 'vw',
+                            'vh': 'vh'
+                        } %}
+                        {{ macros.select(name ~ '_unit', options[name ~ '_unit'], choices, 'is-unit') }}
                     {% elseif unit_type == 'percentage' %}
                         {% set choices = {
                             '%': '%',
@@ -225,12 +236,9 @@
     </tr>
 {% endmacro %}
 
-{% macro header(title, section, url=false) %}
+{% macro header(title, section) %}
     <div class='panel-body'>
         {{ title }}
-        {% if url %}
-            <a class="docs" href="https://responsive.menu/docs/{{ url }}" target="_blank">Docs</a>
-        {% endif %}
         <small>{{ section }}</small>
     </div>
 {% endmacro %}

@@ -37,11 +37,10 @@
 	display: flex;
 	flex-flow: row;
 	justify-content: space-around;
-	align-items: center;
 	
 	@media screen and (max-width: 756px) {
 		flex-wrap: wrap;
-
+		flex-flow: column;
 }
 
 }
@@ -50,7 +49,7 @@
 	flex-flow: column;
 	align-items: center;
 	padding: 20px 10px 0 10px;	
-	//max-width: 300px;
+	flex: 1;
 }
 .callout-multiple-image {
 }
@@ -64,7 +63,7 @@
 	margin: 20px 0;
 }
 .callout-multiple-paragraph {
-	padding-bottom: 20px;
-	text-align: center;
+	//text-align: center;
 	margin-top: 20px;
+	padding: 0 20px 20px 0;
 }

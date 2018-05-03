@@ -2,8 +2,8 @@
 Contributors: ResponsiveMenu, peterfeatherstone
 Tags: responsive, menu, responsive menu, mobile menu, wordpress responsive menu, wp responsive menu, tablet menu, mobile, tablet, 3 lines, 3 line, three line, three lines
 Requires at least: 3.6
-Tested up to: 4.9
-Stable tag: 3.1.13
+Tested up to: 4.9.4
+Stable tag: 3.1.14
 Requires PHP: 5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -24,9 +24,10 @@ Highly customisable Responsive Menu Plugin for WordPress. With over 150 customis
 
 PHP 5.4+
 
-**Fully documented:**
+**Full Knowledgebase and dedicated support forum:**
 
-[https://responsive.menu/docs/](https://responsive.menu/docs/)
+[https://responsive.menu/knowledgebase/](https://responsive.menu/knowledgebase/)
+[https://responsive.menu/forums/forum/pro-support/](https://responsive.menu/forums/forum/pro-support/)
 
 **Fully unit tested:**
 
@@ -109,6 +110,18 @@ To view our FAQ, please go to [https://responsive.menu/faq/](https://responsive.
 15. Admin Desktop Menu Section
 
 == Changelog ==
+
+= 3.1.14 (30th March 2018) =
+* Added line height options for all menu items.
+* Added title to Search element to meet WCAG accessibility requirements.
+* Improvements for admin option filtering.
+* Added Height and Width options to Title Image.
+* Added customisable options for sub-menus.
+* Allow translation of search placeholder text.
+* Fixed bug with Adjust Header Bar option.
+* [PRO] Added inner Header Bar HTML element for easier customisation.
+* [PRO] Option to close menu on page scroll.
+* [PRO] Option to smooth scroll same page links.
 
 = 3.1.13 (19th January 2018) =
 * Move custom data to the uploads folder.

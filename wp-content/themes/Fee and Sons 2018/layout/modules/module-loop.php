@@ -34,6 +34,9 @@ if( have_rows('flexible_content_field_name') ):
         
         elseif( get_row_layout() == 'news_posts' ):
             get_template_part('layout/modules/parts/module', 'news_posts');
+        
+        elseif( get_row_layout() == 'sectioned_content' ):
+            get_template_part('layout/modules/parts/module', 'sectioned_content');
             
     
 

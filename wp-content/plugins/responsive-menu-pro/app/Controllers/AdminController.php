@@ -179,7 +179,7 @@ class AdminController {
             else:
                 update_option('responsive_menu_pro_license_type', '');
                 if(!is_wp_error($response))
-                    $alert = ['danger' => 'License key invalid' . ' - Please <a href="https://responsive.menu/faq/license-activation-issues" target="_blank"> click here</a> for more information.'];
+                    $alert = ['danger' => 'License key invalid' . ' - Please <a href="https://responsive.menu/knowledgebase/license-activation-issues/" target="_blank"> click here</a> for more information.'];
             endif;
             update_option('responsive_menu_pro_license_key', $license_key);
         endif;

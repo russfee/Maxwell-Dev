@@ -4,7 +4,7 @@
 Plugin Name: Responsive Menu Pro
 Plugin URI: https://responsive.menu
 Description: Highly Customisable Responsive Menu Plugin for WordPress
-Version: 3.1.13
+Version: 3.1.14
 Author: Peter Featherstone
 Text Domain: responsive-menu-pro
 Author URI: https://peterfeatherstone.com

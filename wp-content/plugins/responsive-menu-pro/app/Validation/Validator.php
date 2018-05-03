@@ -14,7 +14,7 @@ class Validator {
                     $validator = new $validator_obj($options[$option]);
                     if(!$validator->validate()):
                         $nice_name = str_replace('_', ' ', ucwords($option));
-                        $this->errors[$option][] = 'Validation failed on <a class="validation-error scroll-to-option" href="#responsive-menu-pro-' . str_replace('_', '-', $option) . '">'  . $nice_name . '</a>: ' . $validator->getErrorMessage();
+                        $this->errors[$option][] = 'Validation failed on <a class="validation-error scroll-to-option" href="#responsive-menu-' . str_replace('_', '-', $option) . '">'  . $nice_name . '</a>: ' . $validator->getErrorMessage();
                     endif;
                 endif;
             endforeach;
@@ -44,6 +44,7 @@ class Validator {
             'animation_speed',
             'transition_speed',
             'sub_menu_speed',
+            'smooth_scroll_speed',
             'button_font_size',
             'button_title_line_height',
             'menu_width',
@@ -51,14 +52,16 @@ class Validator {
             'menu_border_width',
             'menu_font_size',
             'menu_links_height',
+            'menu_links_line_height',
             'submenu_arrow_height',
             'submenu_arrow_width',
             'header_bar_height',
             'header_bar_font_size',
             'single_menu_height',
+            'single_menu_line_height',
             'single_menu_font_size',
             'single_menu_submenu_font_size',
-            'single_menu_submenu_height',
+            'single_menu_submenu_line_height',
             'menu_depth_0',
             'menu_depth_1',
             'menu_depth_2',

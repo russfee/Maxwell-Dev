@@ -15,6 +15,36 @@ Footer_Layout SCSS
 		text-decoration: none;
 	}
 }
+.contact-section-container {
+	color: $white;
+	display: flex;
+	
+	@media screen and (max-width: 756px) {
+		flex-flow: column;		
+}
+
+}
+.contact-group-container {
+	display: flex;
+	margin: 0 40px 40px 40px;
+	align-items: center;
+	
+	@media screen and (max-width: 350px) {
+		flex-flow: column;		
+}
+
+}
+.contact-group-icon {
+	width: 40px;
+	
+	@media screen and (max-width: 350px) {
+		padding: 0 0 10px 0;		
+}
+
+}
+.contact-group-text {
+	margin-left: 20px;
+}
 .footer-nav-container {
 	display: flex;
 	flex-flow: row;
@@ -49,6 +79,10 @@ Footer_Layout SCSS
 	height: 2px;
 	width: 50%;
 	margin: 40px 0;
+}
+
+.footer-logo {
+	max-width: 250px;
 }
 
 .footer-lower-container {

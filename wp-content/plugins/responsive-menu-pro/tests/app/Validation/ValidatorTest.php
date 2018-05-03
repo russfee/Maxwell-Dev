@@ -18,7 +18,7 @@ class ValidatorTest extends TestCase {
         $this->assertArrayHasKey('button_background_colour', $errors);
 
         // Tests the creation of URL inside error message
-        $this->assertContains('#responsive-menu-pro-button-background-colour', $errors['button_background_colour'][0]);
+        $this->assertContains('#responsive-menu-button-background-colour', $errors['button_background_colour'][0]);
 
         // Test the conversion of ID to name inside error message
         $this->assertContains('Button background colour', $errors['button_background_colour'][0]);

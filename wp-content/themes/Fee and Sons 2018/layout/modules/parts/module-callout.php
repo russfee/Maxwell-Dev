@@ -35,12 +35,14 @@
 			<h3><?php the_sub_field('headline'); ?></h3>
 			</div> <!--callout-multiple-headline-->
 			<div class="callout-multiple-rule" style="background-color: #4295CB;" ></div> <!--callout-multiple-rule-->
-			<div class="callout-multiple-paragraph">
+			<div class="callout-multiple-paragraph" style="text-align: <?php the_sub_field('text_align'); ?>;">
 			<?php the_sub_field('paragraph'); ?>
 			</div> <!--callout-multiple-paragraph-->
-			<div class="btn-secondary">
-				<a href="#"><?php the_sub_field('button_text'); ?></a>
-			</div> <!--banner-button-dark-->
+			<?php if( get_sub_field('button_text') ): ?>
+						<div class="btn-secondary">
+							<a href="#"><?php the_sub_field('button_text'); ?></a>
+						</div> <!--btn-secondary-->
+			<?php endif; ?>	
 		</div> <!--callout-multiple-individual-->
 					<?php endwhile; ?>
 				<?php endif; ?>		
