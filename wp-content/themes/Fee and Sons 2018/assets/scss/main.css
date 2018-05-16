@@ -698,7 +698,7 @@ li.current-menu-item {
   margin: 0px; }
 
 #navigation li ul {
-  background: #57B3D2;
+  background: #4295CB;
   display: none;
   height: auto;
   padding: 0px;
@@ -1762,6 +1762,10 @@ p {
   flex: 1;
   padding: 0 5%;
   order: 1; }
+  @media screen and (max-width: 756px) {
+    .products-alternating-written-right h3 {
+      text-align: center;
+      padding-top: 10px; } }
 
 .products-alternating-written-left {
   display: flex;
@@ -1770,6 +1774,10 @@ p {
   flex: 1;
   padding: 0 5%;
   order: 2; }
+  @media screen and (max-width: 756px) {
+    .products-alternating-written-left h3 {
+      text-align: center;
+      padding-top: 10px; } }
 
 /* Module - Header - Stylized
 ================================================== */

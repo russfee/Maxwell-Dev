@@ -70,6 +70,14 @@
 	flex: 1;
 	padding: 0 5%;
 	order: 1;
+	
+	h3 {
+		@media screen and (max-width: 756px) {
+			text-align: center;
+			padding-top: 10px;
+}
+
+	}
 }
 .products-alternating-written-left {
 	display: flex;
@@ -78,4 +86,11 @@
 	flex: 1;
 	padding: 0 5%;
 	order: 2;
+	
+		h3 {
+		@media screen and (max-width: 756px) {
+			text-align: center;
+			padding-top: 10px;
+}
+	}
 }
