@@ -2,32 +2,34 @@
 
 <div class="row">
 	<div class="footer-upper-container" style="background-color: <?php the_field('footer_background_colour', 'options'); ?>;">
-		<div class="contact-section-container">
-			
-			<?php if(get_field('contact_repeater', 'option')): ?>
-				
-				
-					<?php while(has_sub_field('contact_repeater', 'option')): ?>
-						<div class="contact-group-container">
-							<div class="contact-group-icon">
-								<img src="<?php the_sub_field('contact_icon'); ?>">
-							</div> <!--contact-group-icon-->	
-							<div class="contact-group-text">
-								<a href="<?php the_sub_field('contact_link'); ?>"><?php the_sub_field('contact_text'); ?></a>
-							</div> <!--contact-group-text-->	
-						</div> <!--contact-group-container-->
-				
-					<?php endwhile; ?>
-				<?php endif; ?>
-			
-			
-		
-		</div> <!--contact-section-container-->
 		<div class="footer-nav-container">
 			<?php wp_nav_menu( array('menu' => 'Footer' )); ?>
 		</div> <!--footer-nav-container-->
 		<div class="footer-rule" style="background-color: <?php the_field('footer_rule_colour', 'options'); ?>;"></div> <!--footer-rule-->
-		<div class="footer-logo"> <img src="<?php the_field('footer_logo', 'options'); ?>"></div> <!--footer-logo-->
+		<div class="footer-logo-contact-container">	
+			<div class="footer-logo"> <img src="<?php the_field('footer_logo', 'options'); ?>"></div> <!--footer-logo-->
+			<div class="contact-section-container">
+				
+				<?php if(get_field('contact_repeater', 'option')): ?>
+					
+					
+						<?php while(has_sub_field('contact_repeater', 'option')): ?>
+							<div class="contact-group-container">
+								<div class="contact-group-icon">
+									<img src="<?php the_sub_field('contact_icon'); ?>">
+								</div> <!--contact-group-icon-->	
+								<div class="contact-group-text">
+									<a href="<?php the_sub_field('contact_link'); ?>"><?php the_sub_field('contact_text'); ?></a>
+								</div> <!--contact-group-text-->	
+							</div> <!--contact-group-container-->
+					
+						<?php endwhile; ?>
+					<?php endif; ?>
+				
+		</div> <!--footer-logo-contact-container-->		
+			
+			</div> <!--contact-section-container-->
+
 	</div> <!--footer-upper-container-->
 </div> <!--row-->
 <div class="row">
