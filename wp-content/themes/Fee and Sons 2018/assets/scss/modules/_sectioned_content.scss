@@ -4,9 +4,11 @@ SECTIONED CONTENT SCSS
 
 
 .sectioned-content-container {
-	padding: 20px 40px 20px 0;
-	border-bottom: 3px solid #4295CB;
-	margin-left: 40px;
+	//to put it back, swap the comments in this class and add a constrain back to the row
+	//padding: 20px 40px 20px 0;
+	padding: 20px 0 0 0;	
+	//border-bottom: 3px solid #4295CB;
+	//margin-left: 40px;
 	
 	&:last-of-type {
 		border: none;

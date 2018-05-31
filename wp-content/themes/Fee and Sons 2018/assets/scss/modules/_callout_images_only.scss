@@ -1,15 +1,30 @@
 /* Module - Callout - Images Only
 ================================================== */
 
+.callout-flex-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	
+	@media screen and (max-width: 375px) {
+		flex-flow: column;
+		align-items: center;
+}
+
+}
 .callout-io-container {
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
-	@media screen and (max-width: 756px) {
+	width: 100%;
+	@media screen and (max-width: 975px) {
 		flex-wrap: wrap;		
 }
 	@media screen and (max-width: 530px) {
 		justify-content: center;		
+}
+	@media screen and (max-width: 375px) {
+		width: 300px;
 }
 
 
@@ -19,7 +34,7 @@
 	width: 200px;
 	height: 200px;
 	margin: 0 0 20px 0;
-	padding: 40px;
+	padding: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -34,13 +49,36 @@
 		margin:0;
 
 	}
+	@media screen and (max-width: 975px) {
+		width: 300px;
+		width: 300px;
+}
+
+	@media screen and (max-width: 756px) {
+		width: 200px;
+		width: 200px;
+}
+
+	@media screen and (max-width: 375px) {
+		width: 150px;
+		height: 150px;
+		margin: 0;
+}
+
 
 }
 
 .callout-io-title {
 	line-height: 1em;
 	text-align: center;
-	border-bottom: 5px transparent solid;}
+	border-bottom: 5px transparent solid;
+	
+	@media screen and (max-width: 375px) {
+		font-size: 1.5em !important;		
+}
+
+	
+}
 	
 .callout-multiple-image {
 	max-width: 120px;

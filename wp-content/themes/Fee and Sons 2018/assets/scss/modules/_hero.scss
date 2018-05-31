@@ -7,6 +7,11 @@
 	background-position: center;
 	background-repeat: no-repeat;	  
 	height: 400px;
+	
+	@media screen and (max-width: 600px) {
+		height: 200px;		
+}
+
 }
 
 .banner-content {
@@ -45,6 +50,12 @@
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #000;
 	line-height: 1em;
+	
+	@media screen and (max-width: 600px) {
+		font-size: 1.75em;
+		text-align: center;
+}
+
 }
 .home-banner-subtitle {
 	font-size: 1.5em;

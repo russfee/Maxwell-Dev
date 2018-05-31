@@ -5,3 +5,16 @@ p {
 	line-height: 1.5em;
 	margin-top: 10px;
 }
+
+.paragraph-container {
+	
+	@media screen and (max-width: 475px) {
+		font-size: .75em;	
+}
+
+@media screen and (max-width: 350px) {
+		font-size: .5em;		
+}
+
+
+}

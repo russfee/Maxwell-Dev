@@ -867,7 +867,7 @@ li.current-menu-item {
   align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .nav-container {
     -ms-flex-flow: column;
     flex-flow: column;
@@ -881,7 +881,7 @@ li.current-menu-item {
 @media screen and (max-width: 1000px) {
   #mobile-nav {
     display: inline;
-    margin-top: -32px;
+    padding: 0 0 20px 0;
   }
 }
 
@@ -903,6 +903,12 @@ Banner - Sub Page
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+  .sub-banner-container {
+    height: 200px;
+  }
 }
 
 /*=================================================
@@ -1504,6 +1510,12 @@ li#field_5_4.gfield.gf_right_half.field_sublabel_below.field_description_below.h
   font-style: italic;
 }
 
+@media screen and (max-width: 640px) {
+  .gform_footer {
+    margin: 10% !important;
+  }
+}
+
 /* Simple Select styles
   =================================================== */
 .ss-main {
@@ -2049,7 +2061,7 @@ Top Bar
 
 /* Module - Callout - Images Only
 ================================================== */
-.callout-io-container {
+.callout-flex-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row;
@@ -2058,7 +2070,26 @@ Top Bar
   justify-content: space-between;
 }
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 375px) {
+  .callout-flex-container {
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.callout-io-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 975px) {
   .callout-io-container {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -2072,11 +2103,17 @@ Top Bar
   }
 }
 
+@media screen and (max-width: 375px) {
+  .callout-io-container {
+    width: 300px;
+  }
+}
+
 .callout-io-image {
   width: 200px;
   height: 200px;
   margin: 0 0 20px 0;
-  padding: 60px;
+  padding: 20px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -2095,9 +2132,38 @@ Top Bar
   margin: 0;
 }
 
+@media screen and (max-width: 975px) {
+  .callout-io-image {
+    width: 300px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .callout-io-image {
+    width: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .callout-io-image {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+  }
+}
+
 .callout-io-title {
   line-height: 1em;
+  text-align: center;
   border-bottom: 5px transparent solid;
+}
+
+@media screen and (max-width: 375px) {
+  .callout-io-title {
+    font-size: 1.5em !important;
+  }
 }
 
 .callout-multiple-image {
@@ -2114,6 +2180,12 @@ Top Bar
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  #banner {
+    height: 200px;
+  }
 }
 
 .banner-content {
@@ -2159,6 +2231,13 @@ Top Bar
   line-height: 1em;
 }
 
+@media screen and (max-width: 600px) {
+  .home-banner-headline {
+    font-size: 1.75em;
+    text-align: center;
+  }
+}
+
 .home-banner-subtitle {
   font-size: 1.5em;
   margin: 20px 0;
@@ -2171,6 +2250,18 @@ p {
   margin: 0 auto;
   line-height: 1.5em;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 475px) {
+  .paragraph-container {
+    font-size: .75em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .paragraph-container {
+    font-size: .5em;
+  }
 }
 
 /* Module - Products Alternating
@@ -2211,7 +2302,6 @@ p {
 .products-alternating-image-left img {
   max-width: 300px;
   max-height: 300px;
-  border: 1px solid #333333;
 }
 
 @media screen and (max-width: 900px) {
@@ -2238,7 +2328,6 @@ p {
 .products-alternating-image-right img {
   max-width: 300px;
   max-height: 300px;
-  border: 1px solid #333333;
 }
 
 @media screen and (max-width: 900px) {
@@ -2317,9 +2406,7 @@ p {
 SECTIONED CONTENT SCSS
 =================================================== */
 .sectioned-content-container {
-  padding: 20px 40px 20px 0;
-  border-bottom: 3px solid #4295CB;
-  margin-left: 40px;
+  padding: 20px 0 0 0;
 }
 
 .sectioned-content-container:last-of-type {

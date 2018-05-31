@@ -752,7 +752,7 @@ li.current-menu-item {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 1000px) {
     .nav-container {
       flex-flow: column; } }
 
@@ -761,7 +761,7 @@ li.current-menu-item {
   @media screen and (max-width: 1000px) {
     #mobile-nav {
       display: inline;
-      margin-top: -32px; } }
+      padding: 0 0 20px 0; } }
   @media screen and (max-width: 500px) {
     #mobile-nav {
       padding: 0 0 40px 0; } }
@@ -778,6 +778,9 @@ Banner - Sub Page
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
+  @media screen and (max-width: 600px) {
+    .sub-banner-container {
+      height: 200px; } }
 
 /*=================================================
 Buttons
@@ -1228,6 +1231,10 @@ li#field_5_4.gfield.gf_right_half.field_sublabel_below.field_description_below.h
 .gfield_description {
   font-style: italic; }
 
+@media screen and (max-width: 640px) {
+  .gform_footer {
+    margin: 10% !important; } }
+
 /* Simple Select styles
   =================================================== */
 .ss-main {
@@ -1621,22 +1628,35 @@ Top Bar
 
 /* Module - Callout - Images Only
 ================================================== */
-.callout-io-container {
+.callout-flex-container {
   display: flex;
   flex-flow: row;
   justify-content: space-between; }
-  @media screen and (max-width: 756px) {
+  @media screen and (max-width: 375px) {
+    .callout-flex-container {
+      flex-flow: column;
+      align-items: center; } }
+
+.callout-io-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 100%; }
+  @media screen and (max-width: 975px) {
     .callout-io-container {
       flex-wrap: wrap; } }
   @media screen and (max-width: 530px) {
     .callout-io-container {
       justify-content: center; } }
+  @media screen and (max-width: 375px) {
+    .callout-io-container {
+      width: 300px; } }
 
 .callout-io-image {
   width: 200px;
   height: 200px;
   margin: 0 0 20px 0;
-  padding: 40px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1648,11 +1668,27 @@ Top Bar
     border-bottom: 5px #4295CB solid;
     transition: border-bottom 0.25s ease-in-out;
     margin: 0; }
+  @media screen and (max-width: 975px) {
+    .callout-io-image {
+      width: 300px;
+      width: 300px; } }
+  @media screen and (max-width: 756px) {
+    .callout-io-image {
+      width: 200px;
+      width: 200px; } }
+  @media screen and (max-width: 375px) {
+    .callout-io-image {
+      width: 150px;
+      height: 150px;
+      margin: 0; } }
 
 .callout-io-title {
   line-height: 1em;
   text-align: center;
   border-bottom: 5px transparent solid; }
+  @media screen and (max-width: 375px) {
+    .callout-io-title {
+      font-size: 1.5em !important; } }
 
 .callout-multiple-image {
   max-width: 120px; }
@@ -1666,6 +1702,9 @@ Top Bar
   background-position: center;
   background-repeat: no-repeat;
   height: 400px; }
+  @media screen and (max-width: 600px) {
+    #banner {
+      height: 200px; } }
 
 .banner-content {
   height: 100%;
@@ -1696,6 +1735,10 @@ Top Bar
   font-weight: bold;
   text-shadow: 1px 1px 1px #000;
   line-height: 1em; }
+  @media screen and (max-width: 600px) {
+    .home-banner-headline {
+      font-size: 1.75em;
+      text-align: center; } }
 
 .home-banner-subtitle {
   font-size: 1.5em;
@@ -1708,6 +1751,14 @@ p {
   margin: 0 auto;
   line-height: 1.5em;
   margin-top: 10px; }
+
+@media screen and (max-width: 475px) {
+  .paragraph-container {
+    font-size: .75em; } }
+
+@media screen and (max-width: 350px) {
+  .paragraph-container {
+    font-size: .5em; } }
 
 /* Module - Products Alternating
 ================================================== */
@@ -1730,8 +1781,7 @@ p {
   padding: 0 5%; }
   .products-alternating-image-left img {
     max-width: 300px;
-    max-height: 300px;
-    border: 1px solid #333333; }
+    max-height: 300px; }
     @media screen and (max-width: 900px) {
       .products-alternating-image-left img {
         max-width: 150px;
@@ -1746,8 +1796,7 @@ p {
   padding: 0 5%; }
   .products-alternating-image-right img {
     max-width: 300px;
-    max-height: 300px;
-    border: 1px solid #333333; }
+    max-height: 300px; }
     @media screen and (max-width: 900px) {
       .products-alternating-image-right img {
         max-width: 150px;
@@ -1796,9 +1845,7 @@ p {
 SECTIONED CONTENT SCSS
 =================================================== */
 .sectioned-content-container {
-  padding: 20px 40px 20px 0;
-  border-bottom: 3px solid #4295CB;
-  margin-left: 40px; }
+  padding: 20px 0 0 0; }
   .sectioned-content-container:last-of-type {
     border: none; }
   .sectioned-content-container p {

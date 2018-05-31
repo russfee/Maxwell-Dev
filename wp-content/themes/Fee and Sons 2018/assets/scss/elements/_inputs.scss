@@ -272,6 +272,15 @@ font-weight: bold;
 font-style: italic;
 }
 
+.gform_footer {
+	
+	@media screen and (max-width: 640px) {
+	margin: 10% !important;
+				
+}
+
+}
+
  
   /* Simple Select styles
   =================================================== */

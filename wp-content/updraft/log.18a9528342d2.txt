@@ -1,0 +1,423 @@
+0000.000 (0) Opened log file at time: Thu, 31 May 2018 15:37:36 +0000 on http://maxwelldev.local
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MBP.hitronhub.home 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 43.1M | 4M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 73479.4 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.028 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.035 (0) Set semaphore last lock (fd) time to 2018-05-31 15:37:36
+0000.037 (0) Semaphore lock (fd) complete
+0000.046 (0) Backup run: resumption=0, nonce=18a9528342d2, begun at=1527781056 (0s ago), job type=backup
+0000.049 (0) Scheduling a resumption (1) after 300 seconds (1527781356) in case this run gets aborted
+0000.076 (0) Checking if we have a zip executable available
+0000.077 (0) Testing: /usr/bin/zip
+0000.085 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.086 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.089 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.090 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.092 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.110 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.114 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.142 (0) Working binary zip found: /usr/bin/zip
+0000.147 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.148 (0) Creation of backups of directories: beginning
+0000.153 (0) No backup of plugins: excluded by user's options
+0000.159 (0) Beginning creation of dump of themes (split every: 25 MB)
+0000.183 (0) Total entities for the zip file: 42 directories, 261 files (0 skipped as non-modified), 4.5 MB
+0000.189 (0) Zip: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.196 (0) Zip: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.475 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-themes.zip.tmp: size is now: 3.10 MB
+0000.601 (0) Created themes zip (0) - 3180.2 KB in 0.4 s (7259.1 KB/s) (sha1: 50826f5d429bc457844240dfd45e6679294b084e, sha256: 369177ea86ad805e62bafcaff7e04d50c497f621059210177c7a3b01736de7d8)
+0000.607 (0) No backup of uploads: excluded by user's options
+0000.609 (0) No backup of others: excluded by user's options
+0000.618 (0) Saving backup status to database (elements: 2)
+0000.625 (0) Beginning creation of database dump (WordPress DB)
+0000.708 (0) Table wp_options: Total expected rows (approximate): 469
+0000.796 (0) Table wp_options: Total rows added: 347 in 0.08 seconds
+0000.799 (0) Table wp_options: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_options.table.gz - 94.6 KB)
+0000.822 (0) Table wp_users: Total expected rows (approximate): 1
+0000.835 (0) Table wp_users: Total rows added: 1 in 0.01 seconds
+0000.841 (0) Table wp_users: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_users.table.gz - 0.6 KB)
+0000.863 (0) Table wp_usermeta: Total expected rows (approximate): 26
+0000.874 (0) Table wp_usermeta: Total rows added: 26 in 0.01 seconds
+0000.878 (0) Table wp_usermeta: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_usermeta.table.gz - 1.5 KB)
+0000.893 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.899 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.902 (0) Table wp_commentmeta: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0000.915 (0) Table wp_comments: Total expected rows (approximate): 1
+0000.930 (0) Table wp_comments: Total rows added: 1 in 0.01 seconds
+0000.933 (0) Table wp_comments: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_comments.table.gz - 0.7 KB)
+0000.949 (0) Table wp_links: Total expected rows (approximate): 0
+0000.958 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0000.962 (0) Table wp_links: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_links.table.gz - 0.4 KB)
+0000.976 (0) Table wp_postmeta: Total expected rows (approximate): 27836
+0002.584 (0) Table wp_postmeta: Total rows added: 26473 in 1.61 seconds
+0002.586 (0) Table wp_postmeta: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_postmeta.table.gz - 226.5 KB)
+0002.593 (0) Table wp_posts: Total expected rows (approximate): 557
+0002.642 (0) Table wp_posts: Total rows added: 549 in 0.05 seconds
+0002.645 (0) Table wp_posts: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_posts.table.gz - 23.5 KB)
+0002.653 (0) Table wp_term_relationships: Total expected rows (approximate): 11
+0002.657 (0) Table wp_term_relationships: Total rows added: 11 in 0.00 seconds
+0002.659 (0) Table wp_term_relationships: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0002.667 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0002.671 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0002.674 (0) Table wp_term_taxonomy: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0002.685 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0002.692 (0) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0002.694 (0) Table wp_termmeta: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_termmeta.table.gz - 0.4 KB)
+0002.702 (0) Table wp_terms: Total expected rows (approximate): 3
+0002.706 (0) Table wp_terms: Total rows added: 3 in 0.00 seconds
+0002.708 (0) Table wp_terms: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_terms.table.gz - 0.4 KB)
+0002.715 (0) Table wp_gf_draft_submissions: Total expected rows (approximate): 0
+0002.721 (0) Table wp_gf_draft_submissions: Total rows added: 0 in 0.00 seconds
+0002.724 (0) Table wp_gf_draft_submissions: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_draft_submissions.table.gz - 0.4 KB)
+0002.733 (0) Table wp_gf_entry: Total expected rows (approximate): 0
+0002.740 (0) Table wp_gf_entry: Total rows added: 0 in 0.01 seconds
+0002.741 (0) Table wp_gf_entry: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_entry.table.gz - 0.5 KB)
+0002.749 (0) Table wp_gf_entry_meta: Total expected rows (approximate): 0
+0002.753 (0) Table wp_gf_entry_meta: Total rows added: 0 in 0.00 seconds
+0002.754 (0) Table wp_gf_entry_meta: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_entry_meta.table.gz - 0.4 KB)
+0002.762 (0) Table wp_gf_entry_notes: Total expected rows (approximate): 0
+0002.768 (0) Table wp_gf_entry_notes: Total rows added: 0 in 0.00 seconds
+0002.769 (0) Table wp_gf_entry_notes: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_entry_notes.table.gz - 0.4 KB)
+0002.777 (0) Table wp_gf_form: Total expected rows (approximate): 1
+0002.783 (0) Table wp_gf_form: Total rows added: 1 in 0.00 seconds
+0002.784 (0) Table wp_gf_form: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_form.table.gz - 0.4 KB)
+0002.791 (0) Table wp_gf_form_meta: Total expected rows (approximate): 1
+0002.796 (0) Table wp_gf_form_meta: Total rows added: 1 in 0.00 seconds
+0002.798 (0) Table wp_gf_form_meta: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_form_meta.table.gz - 1.3 KB)
+0002.808 (0) Table wp_gf_form_view: Total expected rows (approximate): 1
+0002.812 (0) Table wp_gf_form_view: Total rows added: 1 in 0.00 seconds
+0002.814 (0) Table wp_gf_form_view: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_form_view.table.gz - 0.4 KB)
+0002.823 (0) Table wp_responsive_menu_pro: Total expected rows (approximate): 276
+0002.836 (0) Table wp_responsive_menu_pro: Total rows added: 276 in 0.01 seconds
+0002.838 (0) Table wp_responsive_menu_pro: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_responsive_menu_pro.table.gz - 2.3 KB)
+0002.844 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.848 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.849 (0) Table wp_rg_form: Total expected rows (approximate): 0
+0002.850 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.852 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.856 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.857 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.858 (0) Table wp_rg_form: Total rows added: 0 in 0.01 seconds
+0002.858 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.859 (0) Table wp_rg_form: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_form.table.gz - 0.4 KB)
+0002.860 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.864 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.868 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.870 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.871 (0) Table wp_rg_form_meta: Total expected rows (approximate): 0
+0002.872 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.873 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.878 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.879 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.881 (0) Table wp_rg_form_meta: Total rows added: 0 in 0.01 seconds
+0002.881 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.883 (0) Table wp_rg_form_meta: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_form_meta.table.gz - 0.3 KB)
+0002.883 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.887 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.890 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.893 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.894 (0) Table wp_rg_form_view: Total expected rows (approximate): 0
+0002.894 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.897 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.902 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.903 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.904 (0) Table wp_rg_form_view: Total rows added: 0 in 0.01 seconds
+0002.904 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.905 (0) Table wp_rg_form_view: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_form_view.table.gz - 0.4 KB)
+0002.906 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.909 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.914 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.917 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.919 (0) Table wp_rg_incomplete_submissions: Total expected rows (approximate): 0
+0002.920 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.921 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.926 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.927 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.928 (0) Table wp_rg_incomplete_submissions: Total rows added: 0 in 0.01 seconds
+0002.928 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.929 (0) Table wp_rg_incomplete_submissions: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_incomplete_submissions.table.gz - 0.4 KB)
+0002.930 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.933 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.937 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.940 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.942 (0) Table wp_rg_lead: Total expected rows (approximate): 0
+0002.943 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.945 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.950 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.950 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.952 (0) Table wp_rg_lead: Total rows added: 0 in 0.01 seconds
+0002.953 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.954 (0) Table wp_rg_lead: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead.table.gz - 0.5 KB)
+0002.955 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.959 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.964 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.967 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.968 (0) Table wp_rg_lead_detail: Total expected rows (approximate): 0
+0002.969 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.970 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.975 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.976 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.977 (0) Table wp_rg_lead_detail: Total rows added: 0 in 0.01 seconds
+0002.978 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.979 (0) Table wp_rg_lead_detail: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead_detail.table.gz - 0.4 KB)
+0002.980 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.983 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.987 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.989 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.990 (0) Table wp_rg_lead_detail_long: Total expected rows (approximate): 0
+0002.991 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.992 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.996 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.996 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.997 (0) Table wp_rg_lead_detail_long: Total rows added: 0 in 0.01 seconds
+0002.998 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0002.999 (0) Table wp_rg_lead_detail_long: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead_detail_long.table.gz - 0.3 KB)
+0003.000 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.003 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.011 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.014 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.016 (0) Table wp_rg_lead_meta: Total expected rows (approximate): 0
+0003.017 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.019 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.024 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.025 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.025 (0) Table wp_rg_lead_meta: Total rows added: 0 in 0.01 seconds
+0003.026 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.027 (0) Table wp_rg_lead_meta: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead_meta.table.gz - 0.4 KB)
+0003.028 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.032 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.037 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.040 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.041 (0) Table wp_rg_lead_notes: Total expected rows (approximate): 0
+0003.042 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.043 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.052 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.053 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.054 (0) Table wp_rg_lead_notes: Total rows added: 0 in 0.01 seconds
+0003.054 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.055 (0) Table wp_rg_lead_notes: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead_notes.table.gz - 0.4 KB)
+0003.056 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.060 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0003.067 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0003.073 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0003.075 (0) Table wp_wfBadLeechers: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfBadLeechers.table.gz - 0.3 KB)
+0003.082 (0) Table wp_wfBlockedCommentLog: Total expected rows (approximate): 0
+0003.087 (0) Table wp_wfBlockedCommentLog: Total rows added: 0 in 0.00 seconds
+0003.090 (0) Table wp_wfBlockedCommentLog: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfBlockedCommentLog.table.gz - 0.3 KB)
+0003.096 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 0
+0003.102 (0) Table wp_wfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0003.103 (0) Table wp_wfBlockedIPLog: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfBlockedIPLog.table.gz - 0.3 KB)
+0003.109 (0) Table wp_wfBlocks7: Total expected rows (approximate): 0
+0003.114 (0) Table wp_wfBlocks7: Total rows added: 0 in 0.00 seconds
+0003.116 (0) Table wp_wfBlocks7: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfBlocks7.table.gz - 0.4 KB)
+0003.126 (0) Table wp_wfConfig: Total expected rows (approximate): 133
+0003.136 (0) Table wp_wfConfig: Total rows added: 227 in 0.01 seconds
+0003.138 (0) Table wp_wfConfig: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfConfig.table.gz - 6.6 KB)
+0003.148 (0) Table wp_wfCrawlers: Total expected rows (approximate): 0
+0003.158 (0) Table wp_wfCrawlers: Total rows added: 0 in 0.01 seconds
+0003.160 (0) Table wp_wfCrawlers: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfCrawlers.table.gz - 0.3 KB)
+0003.168 (0) Table wp_wfFileChanges: Total expected rows (approximate): 0
+0003.172 (0) Table wp_wfFileChanges: Total rows added: 0 in 0.00 seconds
+0003.174 (0) Table wp_wfFileChanges: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfFileChanges.table.gz - 0.3 KB)
+0003.183 (0) Table wp_wfFileMods: Total expected rows (approximate): 0
+0003.189 (0) Table wp_wfFileMods: Total rows added: 0 in 0.00 seconds
+0003.190 (0) Table wp_wfFileMods: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfFileMods.table.gz - 0.4 KB)
+0003.198 (0) Table wp_wfHits: Total expected rows (approximate): 830
+0003.269 (0) Table wp_wfHits: Total rows added: 821 in 0.07 seconds
+0003.273 (0) Table wp_wfHits: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfHits.table.gz - 13.1 KB)
+0003.279 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+0003.283 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+0003.285 (0) Table wp_wfHoover: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfHoover.table.gz - 0.3 KB)
+0003.301 (0) Table wp_wfIssues: Total expected rows (approximate): 0
+0003.309 (0) Table wp_wfIssues: Total rows added: 0 in 0.01 seconds
+0003.310 (0) Table wp_wfIssues: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfIssues.table.gz - 0.4 KB)
+0003.321 (0) Table wp_wfKnownFileList: Total expected rows (approximate): 0
+0003.326 (0) Table wp_wfKnownFileList: Total rows added: 0 in 0.00 seconds
+0003.327 (0) Table wp_wfKnownFileList: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfKnownFileList.table.gz - 0.3 KB)
+0003.337 (0) Table wp_wfLeechers: Total expected rows (approximate): 34
+0003.342 (0) Table wp_wfLeechers: Total rows added: 34 in 0.00 seconds
+0003.344 (0) Table wp_wfLeechers: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfLeechers.table.gz - 0.5 KB)
+0003.351 (0) Table wp_wfLiveTrafficHuman: Total expected rows (approximate): 2
+0003.357 (0) Table wp_wfLiveTrafficHuman: Total rows added: 2 in 0.00 seconds
+0003.359 (0) Table wp_wfLiveTrafficHuman: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfLiveTrafficHuman.table.gz - 0.4 KB)
+0003.366 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0003.372 (0) Table wp_wfLocs: Total rows added: 0 in 0.00 seconds
+0003.374 (0) Table wp_wfLocs: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfLocs.table.gz - 0.4 KB)
+0003.383 (0) Table wp_wfLogins: Total expected rows (approximate): 12
+0003.389 (0) Table wp_wfLogins: Total rows added: 12 in 0.00 seconds
+0003.390 (0) Table wp_wfLogins: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfLogins.table.gz - 0.8 KB)
+0003.398 (0) Table wp_wfNet404s: Total expected rows (approximate): 0
+0003.404 (0) Table wp_wfNet404s: Total rows added: 0 in 0.00 seconds
+0003.406 (0) Table wp_wfNet404s: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfNet404s.table.gz - 0.3 KB)
+0003.414 (0) Table wp_wfNotifications: Total expected rows (approximate): 11
+0003.419 (0) Table wp_wfNotifications: Total rows added: 11 in 0.00 seconds
+0003.421 (0) Table wp_wfNotifications: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfNotifications.table.gz - 0.7 KB)
+0003.431 (0) Table wp_wfPendingIssues: Total expected rows (approximate): 0
+0003.437 (0) Table wp_wfPendingIssues: Total rows added: 0 in 0.00 seconds
+0003.438 (0) Table wp_wfPendingIssues: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfPendingIssues.table.gz - 0.4 KB)
+0003.445 (0) Table wp_wfReverseCache: Total expected rows (approximate): 0
+0003.452 (0) Table wp_wfReverseCache: Total rows added: 0 in 0.01 seconds
+0003.454 (0) Table wp_wfReverseCache: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfReverseCache.table.gz - 0.3 KB)
+0003.463 (0) Table wp_wfSNIPCache: Total expected rows (approximate): 0
+0003.469 (0) Table wp_wfSNIPCache: Total rows added: 0 in 0.00 seconds
+0003.471 (0) Table wp_wfSNIPCache: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfSNIPCache.table.gz - 0.4 KB)
+0003.478 (0) Table wp_wfScanners: Total expected rows (approximate): 0
+0003.484 (0) Table wp_wfScanners: Total rows added: 0 in 0.00 seconds
+0003.485 (0) Table wp_wfScanners: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfScanners.table.gz - 0.3 KB)
+0003.493 (0) Table wp_wfStatus: Total expected rows (approximate): 163
+0003.507 (0) Table wp_wfStatus: Total rows added: 225 in 0.01 seconds
+0003.509 (0) Table wp_wfStatus: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfStatus.table.gz - 3.7 KB)
+0003.516 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+0003.521 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0003.523 (0) Table wp_wfVulnScanners: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfVulnScanners.table.gz - 0.3 KB)
+0003.535 (0) Table wp_wpgmza: Total expected rows (approximate): 1
+0003.541 (0) Table wp_wpgmza: Total rows added: 1 in 0.00 seconds
+0003.542 (0) Table wp_wpgmza: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza.table.gz - 0.5 KB)
+0003.549 (0) Table wp_wpgmza_categories: Total expected rows (approximate): 0
+0003.555 (0) Table wp_wpgmza_categories: Total rows added: 0 in 0.00 seconds
+0003.556 (0) Table wp_wpgmza_categories: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_categories.table.gz - 0.3 KB)
+0003.563 (0) Table wp_wpgmza_category_maps: Total expected rows (approximate): 0
+0003.569 (0) Table wp_wpgmza_category_maps: Total rows added: 0 in 0.00 seconds
+0003.571 (0) Table wp_wpgmza_category_maps: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_category_maps.table.gz - 0.3 KB)
+0003.578 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0003.582 (0) Table wp_wpgmza_circles: Total rows added: 0 in 0.00 seconds
+0003.584 (0) Table wp_wpgmza_circles: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_circles.table.gz - 0.3 KB)
+0003.592 (0) Table wp_wpgmza_datasets: Total expected rows (approximate): 0
+0003.600 (0) Table wp_wpgmza_datasets: Total rows added: 0 in 0.01 seconds
+0003.601 (0) Table wp_wpgmza_datasets: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_datasets.table.gz - 0.3 KB)
+0003.608 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 1
+0003.616 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.01 seconds
+0003.618 (0) Table wp_wpgmza_maps: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_maps.table.gz - 0.7 KB)
+0003.626 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0003.632 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.01 seconds
+0003.634 (0) Table wp_wpgmza_polygon: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_polygon.table.gz - 0.4 KB)
+0003.641 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0003.648 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0003.649 (0) Table wp_wpgmza_polylines: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_polylines.table.gz - 0.3 KB)
+0003.658 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0003.662 (0) Table wp_wpgmza_rectangles: Total rows added: 0 in 0.00 seconds
+0003.665 (0) Table wp_wpgmza_rectangles: finishing file (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_rectangles.table.gz - 0.3 KB)
+0003.672 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_options.table.gz (1/62): adding to final database dump
+0003.714 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_users.table.gz (2/62): adding to final database dump
+0003.716 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_usermeta.table.gz (3/62): adding to final database dump
+0003.719 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_commentmeta.table.gz (4/62): adding to final database dump
+0003.721 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_comments.table.gz (5/62): adding to final database dump
+0003.723 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_links.table.gz (6/62): adding to final database dump
+0003.724 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_postmeta.table.gz (7/62): adding to final database dump
+0003.955 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_posts.table.gz (8/62): adding to final database dump
+0003.974 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_term_relationships.table.gz (9/62): adding to final database dump
+0003.976 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_term_taxonomy.table.gz (10/62): adding to final database dump
+0003.978 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_termmeta.table.gz (11/62): adding to final database dump
+0003.980 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_terms.table.gz (12/62): adding to final database dump
+0003.982 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_draft_submissions.table.gz (13/62): adding to final database dump
+0003.984 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_entry.table.gz (14/62): adding to final database dump
+0003.986 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_entry_meta.table.gz (15/62): adding to final database dump
+0003.989 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_entry_notes.table.gz (16/62): adding to final database dump
+0003.991 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_form.table.gz (17/62): adding to final database dump
+0003.993 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_form_meta.table.gz (18/62): adding to final database dump
+0003.994 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_gf_form_view.table.gz (19/62): adding to final database dump
+0003.997 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_responsive_menu_pro.table.gz (20/62): adding to final database dump
+0004.002 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_form.table.gz (21/62): adding to final database dump
+0004.003 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0004.005 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_form_meta.table.gz (22/62): adding to final database dump
+0004.006 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0004.010 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_form_view.table.gz (23/62): adding to final database dump
+0004.011 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0004.015 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_incomplete_submissions.table.gz (24/62): adding to final database dump
+0004.016 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0004.019 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead.table.gz (25/62): adding to final database dump
+0004.020 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0004.024 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead_detail.table.gz (26/62): adding to final database dump
+0004.025 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0004.028 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead_detail_long.table.gz (27/62): adding to final database dump
+0004.028 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0004.033 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead_meta.table.gz (28/62): adding to final database dump
+0004.034 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0004.037 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_rg_lead_notes.table.gz (29/62): adding to final database dump
+0004.038 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5146, wp-content/plugins/gravityforms/gravityforms.php)
+0004.040 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfBadLeechers.table.gz (30/62): adding to final database dump
+0004.044 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfBlockedCommentLog.table.gz (31/62): adding to final database dump
+0004.045 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfBlockedIPLog.table.gz (32/62): adding to final database dump
+0004.047 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfBlocks7.table.gz (33/62): adding to final database dump
+0004.053 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfConfig.table.gz (34/62): adding to final database dump
+0004.058 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfCrawlers.table.gz (35/62): adding to final database dump
+0004.060 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfFileChanges.table.gz (36/62): adding to final database dump
+0004.062 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfFileMods.table.gz (37/62): adding to final database dump
+0004.067 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfHits.table.gz (38/62): adding to final database dump
+0004.082 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfHoover.table.gz (39/62): adding to final database dump
+0004.085 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfIssues.table.gz (40/62): adding to final database dump
+0004.087 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfKnownFileList.table.gz (41/62): adding to final database dump
+0004.090 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfLeechers.table.gz (42/62): adding to final database dump
+0004.093 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfLiveTrafficHuman.table.gz (43/62): adding to final database dump
+0004.095 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfLocs.table.gz (44/62): adding to final database dump
+0004.098 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfLogins.table.gz (45/62): adding to final database dump
+0004.102 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfNet404s.table.gz (46/62): adding to final database dump
+0004.104 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfNotifications.table.gz (47/62): adding to final database dump
+0004.108 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfPendingIssues.table.gz (48/62): adding to final database dump
+0004.112 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfReverseCache.table.gz (49/62): adding to final database dump
+0004.114 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfSNIPCache.table.gz (50/62): adding to final database dump
+0004.116 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfScanners.table.gz (51/62): adding to final database dump
+0004.118 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfStatus.table.gz (52/62): adding to final database dump
+0004.124 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wfVulnScanners.table.gz (53/62): adding to final database dump
+0004.126 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza.table.gz (54/62): adding to final database dump
+0004.127 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_categories.table.gz (55/62): adding to final database dump
+0004.132 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_category_maps.table.gz (56/62): adding to final database dump
+0004.136 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_circles.table.gz (57/62): adding to final database dump
+0004.138 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_datasets.table.gz (58/62): adding to final database dump
+0004.142 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_maps.table.gz (59/62): adding to final database dump
+0004.145 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_polygon.table.gz (60/62): adding to final database dump
+0004.148 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_polylines.table.gz (61/62): adding to final database dump
+0004.151 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db-table-wp_wpgmza_rectangles.table.gz (62/62): adding to final database dump
+0004.153 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db.gz: finished writing out complete database file (352 KB)
+0004.197 (0) Total database tables backed up: 62 (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db.gz, size: 387239, sha256)
+0004.212 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0004.215 (0) backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.217 (0) Saving backup history. Total backup size: 3.5 MB
+0004.224 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0004.234 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0004.236 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-8e3554cdff69f1534736ed164812c5f4)
+0004.238 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0004.275 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0004.987 (0) Dropbox quota usage: used=235506.6 MB, total=1059200 MB, available=823693.4 MB
+0004.989 (0) Dropbox: Attempt to upload: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-themes.zip to: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-themes.zip
+0007.039 (0) Dropbox chunked upload: 32.2 % uploaded (AAAAAAACs_JOeDehu1PgxQ, 1048576, 2560 KB)
+0010.388 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACs_JOeDehu1PgxQ, 3256554, 2560 KB)
+0014.677 (0) Recording as successfully uploaded: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-themes.zip (eaece182ea0f9ad7a5cfa2672d675488)
+0014.685 (0) Deleting local file: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-themes.zip: skipped: user has unchecked updraft_delete_local option
+0014.686 (0) Dropbox: File upload success (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-themes.zip): 3180 KB in 9s (327 KB/s)
+0015.022 (0) Dropbox quota usage: used=235512.9 MB, total=1059200 MB, available=823687.1 MB
+0015.024 (0) Dropbox: Attempt to upload: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db.gz to: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db.gz
+0016.972 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACs_PRaxGsyE3p8w, 387239, 2560 KB)
+0018.440 (0) Recording as successfully uploaded: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db.gz (e5d31d94697b21c00acb55ff71d1fff3)
+0018.454 (0) Deleting local file: backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db.gz: skipped: user has unchecked updraft_delete_local option
+0018.455 (0) Dropbox: File upload success (backup_2018-05-31-1537_Maxwell_Dev_18a9528342d2-db.gz): 378 KB in 3s (110 KB/s)
+0018.468 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0018.471 (0) Number of backup sets in history: 2; groups (db): 1
+0018.472 (0) Examining (for databases) backup set with group_id=0, nonce=18a9528342d2, datestamp=1527781056 (May 31 2018 15:37:36)
+0018.474 (0) This backup set is the backup set just made, so will not be deleted.
+0018.474 (0) Examining (for databases) backup set with group_id=0, nonce=a3e8a8e22747, datestamp=1527775906 (May 31 2018 14:11:46)
+0018.474 (0) 1527775906: db: this set includes a database (backup_2018-05-31-1411_Maxwell_Dev_a3e8a8e22747-db.gz); db count is now 1
+0018.474 (0) 1527775906: db: over retain limit (1); will delete this database
+0018.475 (0) Delete file: backup_2018-05-31-1411_Maxwell_Dev_a3e8a8e22747-db.gz, service=dropbox
+0018.477 (0) Deleting local copy (backup_2018-05-31-1411_Maxwell_Dev_a3e8a8e22747-db.gz)
+0018.479 (0) Dropbox: request deletion: backup_2018-05-31-1411_Maxwell_Dev_a3e8a8e22747-db.gz
+0018.895 (0) Dropbox error: path_lookup (line: 224, file: /Users/russfee/Dropbox/Fee and Sons/Clients/Maxwell Developments/Site/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0018.901 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0018.903 (0) Number of backup sets in history: 2; groups (files): 1
+0018.904 (0) Examining (for files) backup set with nonce=18a9528342d2, datestamp=1527781056 (May 31 2018 15:37:36)
+0018.904 (0) This backup set is the backup set just made, so will not be deleted.
+0018.905 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0018.906 (0) Examining (for files) backup set with nonce=a3e8a8e22747, datestamp=1527775906 (May 31 2018 14:11:46)
+0018.906 (0) themes: over retain limit (1); will delete this file entity
+0018.906 (0) Delete file: backup_2018-05-31-1411_Maxwell_Dev_a3e8a8e22747-themes.zip, service=dropbox
+0018.908 (0) Deleting local copy (backup_2018-05-31-1411_Maxwell_Dev_a3e8a8e22747-themes.zip)
+0018.909 (0) Dropbox: request deletion: backup_2018-05-31-1411_Maxwell_Dev_a3e8a8e22747-themes.zip
+0019.592 (0) Dropbox error: path_lookup (line: 224, file: /Users/russfee/Dropbox/Fee and Sons/Clients/Maxwell Developments/Site/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0019.595 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0019.597 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0019.604 (0) Resume backup (18a9528342d2, 0): finish run
+0019.608 (0) Decremented the semaphore (fd) by 1
+0019.610 (0) Semaphore (fd) unlocked
+0019.612 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0019.617 (0) No email will/can be sent - the user has not configured an email address.
+0019.619 (0) The backup apparently succeeded and is now complete

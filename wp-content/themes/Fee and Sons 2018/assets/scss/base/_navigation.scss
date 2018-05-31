@@ -125,7 +125,7 @@ li.current-menu-item {
 	justify-content: space-between;
 	align-items: center;
 	
-	@media screen and (max-width: 500px) {
+	@media screen and (max-width: 1000px) {
 		flex-flow: column;
 }
 
@@ -136,7 +136,8 @@ li.current-menu-item {
 	
 	@media screen and (max-width: 1000px) {
 		display: inline;
-		margin-top: -32px;
+		//margin-top: -60px;
+		padding: 0 0 20px 0;
 }
 
 	@media screen and (max-width: 500px) {
