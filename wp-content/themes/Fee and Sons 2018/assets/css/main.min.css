@@ -913,9 +913,27 @@ Banner - Sub Page
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 990px) {
+  .sub-banner-container {
+    height: 300px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .sub-banner-container {
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sub-banner-container {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .sub-banner-container {
+    height: 115px;
   }
 }
 

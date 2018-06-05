@@ -1,0 +1,77 @@
+0000.005 (0) Opened log file at time: Tue, 05 Jun 2018 15:00:24 +0000 on http://maxwelldev.local
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MBP.hitronhub.home 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 43.1M | 24M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 75706 MB
+0000.021 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 0 (schedule: daily)
+0000.034 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.040 (0) Set semaphore last lock (f) time to 2018-06-05 15:00:24
+0000.041 (0) Semaphore lock (f) complete
+0000.051 (0) Backup run: resumption=0, nonce=9b4b0efca3bd, begun at=1528210824 (0s ago), job type=backup
+0000.055 (0) Scheduling a resumption (1) after 300 seconds (1528211124) in case this run gets aborted
+0000.092 (0) Checking if we have a zip executable available
+0000.094 (0) Testing: /usr/bin/zip
+0000.127 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.131 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.135 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.145 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.156 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.231 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.310 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.363 (0) Working binary zip found: /usr/bin/zip
+0000.370 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.375 (0) Creation of backups of directories: beginning
+0000.383 (0) No backup of plugins: excluded by user's options
+0000.395 (0) Beginning creation of dump of themes (split every: 25 MB)
+0000.436 (0) Total entities for the zip file: 42 directories, 261 files (0 skipped as non-modified), 4.5 MB
+0000.458 (0) Zip: backup_2018-06-05-1500_Maxwell_Dev_9b4b0efca3bd-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.549 (0) Zip: backup_2018-06-05-1500_Maxwell_Dev_9b4b0efca3bd-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.945 (0) backup_2018-06-05-1500_Maxwell_Dev_9b4b0efca3bd-themes.zip.tmp: size is now: 3.10 MB
+0001.129 (0) Created themes zip (0) - 3180.4 KB in 0.7 s (4378.3 KB/s) (sha1: 36de22872e34800f3ba6a76e3cd82ccce029092a, sha256: a9aba8c0c38cbd81c1846469ddb1e4a9acb611a537b769855d8a073030e0e8f8)
+0001.132 (0) No backup of uploads: excluded by user's options
+0001.134 (0) No backup of others: excluded by user's options
+0001.147 (0) Saving backup status to database (elements: 2)
+0001.160 (0) No database backup (wp) - not part of this run
+0001.168 (0) backup_2018-06-05-1500_Maxwell_Dev_9b4b0efca3bd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0001.172 (0) Saving backup history. Total backup size: 3.1 MB
+0001.182 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.193 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0001.196 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-8e3554cdff69f1534736ed164812c5f4)
+0001.197 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0001.213 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0001.965 (0) Dropbox quota usage: used=244317.7 MB, total=1059200 MB, available=814882.3 MB
+0001.966 (0) Dropbox: Attempt to upload: backup_2018-06-05-1500_Maxwell_Dev_9b4b0efca3bd-themes.zip to: backup_2018-06-05-1500_Maxwell_Dev_9b4b0efca3bd-themes.zip
+0004.694 (0) Dropbox chunked upload: 32.2 % uploaded (AAAAAAACw2WhuisuUW88Zg, 1048576, 1536 KB)
+0009.465 (0) Dropbox chunked upload: 80.5 % uploaded (AAAAAAACw2WhuisuUW88Zg, 2621440, 1536 KB)
+0016.005 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACw2WhuisuUW88Zg, 3256680, 1536 KB)
+0019.387 (0) Recording as successfully uploaded: backup_2018-06-05-1500_Maxwell_Dev_9b4b0efca3bd-themes.zip (f0096ad0fb6f3419ec457055473d2de1)
+0019.396 (0) Deleting local file: backup_2018-06-05-1500_Maxwell_Dev_9b4b0efca3bd-themes.zip: skipped: user has unchecked updraft_delete_local option
+0019.397 (0) Dropbox: File upload success (backup_2018-06-05-1500_Maxwell_Dev_9b4b0efca3bd-themes.zip): 3180 KB in 17s (182 KB/s)
+0019.408 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0019.411 (0) Number of backup sets in history: 4; groups (db): 1
+0019.412 (0) Examining (for databases) backup set with group_id=0, nonce=9b4b0efca3bd, datestamp=1528210824 (Jun 05 2018 15:00:24)
+0019.414 (0) Examining (for databases) backup set with group_id=0, nonce=ad3a669701ac, datestamp=1528209751 (Jun 05 2018 14:42:31)
+0019.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0019.415 (0) Examining (for databases) backup set with group_id=0, nonce=59b074bdd7a1, datestamp=1528209717 (Jun 05 2018 14:41:57)
+0019.415 (0) Examining (for databases) backup set with group_id=0, nonce=a3e8a8e22747, datestamp=1527775906 (May 31 2018 14:11:46)
+0019.415 (0) Number of backup sets in history: 4; groups (files): 1
+0019.418 (0) Examining (for files) backup set with nonce=9b4b0efca3bd, datestamp=1528210824 (Jun 05 2018 15:00:24)
+0019.418 (0) This backup set is the backup set just made, so will not be deleted.
+0019.420 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0019.423 (0) Examining (for files) backup set with nonce=ad3a669701ac, datestamp=1528209751 (Jun 05 2018 14:42:31)
+0019.423 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0019.424 (0) Examining (for files) backup set with nonce=59b074bdd7a1, datestamp=1528209717 (Jun 05 2018 14:41:57)
+0019.424 (0) themes: over retain limit (1); will delete this file entity
+0019.424 (0) Delete file: backup_2018-06-05-1441_Maxwell_Dev_59b074bdd7a1-themes.zip, service=dropbox
+0019.425 (0) Deleting local copy (backup_2018-06-05-1441_Maxwell_Dev_59b074bdd7a1-themes.zip)
+0019.428 (0) Dropbox: request deletion: backup_2018-06-05-1441_Maxwell_Dev_59b074bdd7a1-themes.zip
+0019.874 (0) Dropbox error: path_lookup (line: 224, file: /Users/russfee/Dropbox/Fee and Sons/Clients/Maxwell Developments/Site/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0019.881 (0) This backup set is now empty; will remove from history
+0019.883 (0) Deleting log file (log.59b074bdd7a1.txt)
+0019.888 (0) Examining (for files) backup set with nonce=a3e8a8e22747, datestamp=1527775906 (May 31 2018 14:11:46)
+0019.888 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0019.891 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0019.903 (0) Resume backup (9b4b0efca3bd, 0): finish run
+0019.918 (0) Decremented the semaphore (f) by 1
+0019.924 (0) Semaphore (f) unlocked
+0019.926 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0019.937 (0) No email will/can be sent - the user has not configured an email address.
+0019.939 (0) The backup apparently succeeded and is now complete

@@ -9,8 +9,22 @@ Banner - Sub Page
 	background-position: center;
 	background-repeat: no-repeat;
 	
-	@media screen and (max-width: 600px) {
-		height: 200px;		
+	@media screen and (max-width: 990px) {
+		height: 300px;	
 }
+	@media screen and (max-width: 600px) {
+		height: 200px;	
+}
+		
+	@media screen and (max-width: 500px) {
+		height: 150px;		
+}
+
+		
+	@media screen and (max-width: 375px) {
+		height: 115px;		
+}
+
+
 
 }
